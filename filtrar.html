@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/filtrar.css">
+</head>
+<body>
+
+    
+    <h2>Filtrar</h2>
+
+    <div class="filtro" id="filtro">
+        <div class="campoForm">
+            <label>Nome</label>
+            <input type="text" name="f_filtro_nome" id="f_filtro_nome">
+        </div>
+        <div class="campoForm">
+            <img src="assets/filter.svg" alt="filtro" class="iconeop" id="btn_fitrar">
+        </div>
+    </div>
+
+    <div id="dgv" class="dgv">
+        <div id="resultado" class="resultado">
+            <div id="titulos" class="titulos">
+                    <div class="titulo c1">id</div>
+                    <div class="titulo c2">nome</div>
+                    <div class="titulo c3">telemóvel</div>
+                    <div class="titulo c4">email</div>
+                    <div class="titulo c5">data</div>
+                    <div class="titulo c6">operações</div>
+            </div>
+            
+
+            <div id="dados" class="dados">
+                <!-- <div class="linhadados"> -->
+                    <!-- <div class="coluna c1"></div>
+                    <div class="coluna c2"></div>
+                    <div class="coluna c3"></div>
+                    <div class="coluna c4"></div>
+                    <div class="coluna c5"></div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+<script src="scripts/filtrar.js"></script>
+</body>
+</html>

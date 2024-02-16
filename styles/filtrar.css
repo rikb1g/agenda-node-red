@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* AUXILIARES
+ */
+
+.ocultar{
+    display: none !important;
+
+}
+input[type=text]{
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+label{
+    padding-right: 5px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 15px auto
+}
+
+
+.dgv{
+    display: flex;
+    justify-content:center ;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+   
+
+}
+.resultado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1200px;
+    
+
+}
+
+.titulos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: inherit;
+    background-color: #248;
+    color: #fff;
+    
+
+}
+.titulo{
+    border-right: 1px solid #ddd;
+}
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: inherit;
+
+}
+
+.linhadados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: inherit;
+    background-color: #fff;
+}
+
+.c1{
+    width: 10%;
+}
+.c2{
+    width: 25%;
+}
+.c3{
+    width: 15%;
+}
+.c4{
+    width: 20%;
+}
+.c5{
+    width: 20%;
+}
+.c6{
+    width: 10%;
+}
+.c-operacaoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c-dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.iconeop{
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn-geral{
+    background-color: #248;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.campoForm input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff0;
+}

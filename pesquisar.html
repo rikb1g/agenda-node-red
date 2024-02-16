@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pesquisar.css">
+</head>
+<body>
+
+    <div id="pesquisa">
+        <div class="campoPesqui">
+            <label>ID</label>
+            <input type="radio" name="f_pesq" value="id">
+        </div>
+        <div class="campoPesqui">
+            <label>Nome</label>
+            <input type="radio" name="f_pesq" value="nome" checked>
+        </div>
+        <div class="campoPesqui">
+            <label>Data Nascimento</label>
+            <input type="radio" name="f_pesq" value="nasc">
+        </div>
+        <div class="campoPesqui">
+            <label>Email</label>
+            <input type="radio" name="f_pesq" value="email">
+        </div>
+        <div class="campoPesqui">
+            <label>Pesquisar</label>
+            <input type="text" name="f_txtpesq" id="f_txtpesq">
+        </div>
+        <div class="campoPesqui">
+            <button id="btn_pesquisar">Pesquisar</button>
+        </div>
+    </div>
+    <div id="dgv" class="dgv">
+        <div id="resultado" class="resultado">
+            <div id="titulos" class="titulos">
+                    <div class="titulo c1">id</div>
+                    <div class="titulo c2">nome</div>
+                    <div class="titulo c3">telemóvel</div>
+                    <div class="titulo c4">email</div>
+                    <div class="titulo c5">data</div>
+            </div>
+            
+
+            <div id="dados" class="dados">
+                <div class="linhadados">
+                    <div class="coluna c1"></div>
+                    <div class="coluna c2"></div>
+                    <div class="coluna c3"></div>
+                    <div class="coluna c4"></div>
+                    <div class="coluna c5"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ 
+    
+
+<script src="scripts/pesquisar.js"></script>
+</body>
+</html>

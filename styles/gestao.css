@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* AUXILIARES
+ */
+
+.ocultar{
+    display: none !important;
+
+}
+input[type=text]{
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+label{
+    padding-right: 5px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 15px auto
+}
+
+
+.dgv{
+    display: flex;
+    justify-content:center ;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+   
+
+}
+.resultado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1200px;
+    
+
+}
+
+.titulos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: inherit;
+    background-color: #248;
+    color: #fff;
+    
+
+}
+.titulo{
+    border-right: 1px solid #ddd;
+}
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: inherit;
+
+}
+
+.linhadados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: inherit;
+    background-color: #fff;
+}
+
+.c1{
+    width: 10%;
+}
+.c2{
+    width: 25%;
+}
+.c3{
+    width: 15%;
+}
+.c4{
+    width: 20%;
+}
+.c5{
+    width: 20%;
+}
+.c6{
+    width: 10%;
+}
+.c-operacaoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c-dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.iconeop{
+    width: 20%;
+    cursor: pointer;
+}
+
+.fundo-popup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999;
+}
+
+.janela-popup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 500px;
+}
+.titulo-popup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #248;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px ;
+    width: inherit;
+
+}
+
+.principal-popup{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: inherit;
+    background-color: #ddd;
+    padding: 5px;
+
+}
+.rodape-popup{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: inherit;
+    background-color: #aaa;
+    border-radius: 0px 0px 5px 5px ;
+}
+.btn-geral{
+    background-color: #248;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.campoForm input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
